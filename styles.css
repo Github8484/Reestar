@@ -1,0 +1,98 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.container {
+  padding: 10px;
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+.section-head {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+.section-head a {
+  color: whitesmoke;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.section-head:hover {
+  color: rgb(241, 170, 170);
+  padding-left: 5px;
+  padding-right: 5px;
+  text-decoration: none;
+}
+
+.section-body {
+  text-align: center;
+  margin: 10px;
+  padding: 2px;
+}
+.section-body__card {
+  border: solid black 1px;
+  display: inline-block;
+  vertical-align: top;
+  height: 430px;
+  width: 200px;
+}
+.section-body__title {
+  font-weight: bold;
+}
+.section-body__desc {
+  font-style: italic;
+  padding-left: 2px;
+  padding-right: 2px;
+  height: 70px;
+}
+.section-body__button {
+  background-color: black;
+  color: white;
+  height: 25px;
+  padding: 5px;
+  border: none;
+}
+.section-body__button:hover {
+  background-color: rgb(234, 234, 143);
+  color: rgb(86, 86, 86);
+  height: 25px;
+  padding: 5px;
+}
+.section-footer {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.section-footer-title {
+  font-weight: bold;
+}
+.section-footer-form {
+  padding: 5px;
+}
+.section-footer-field {
+  padding: 5px;
+}
+.contact-form__submit {
+  background-color: #ccca02;
+  color: white;
+  width: 250px;
+  height: 20px;
+  text-align: center;
+}
+.contact-form__submit:hover {
+  background-color: #b4b273;
+  color: rgb(60, 60, 60);
+  width: 250px;
+  text-align: center;
+}
+.section-footer-table {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 15px;
+  border-spacing: 5px;
+}
